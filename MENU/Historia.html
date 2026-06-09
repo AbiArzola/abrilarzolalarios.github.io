@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>HISTORIA | AJAC COURT KINGS</title>
+
+<link rel="stylesheet" href="../bulma/css/bulma.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:'Poppins',sans-serif;
+	background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+.navbar-ajac{
+	background:linear-gradient(90deg,#000000,#8B0000,#ff3131);
+	padding:12px 25px;
+	position:sticky;
+	top:0;
+	z-index:999;
+	box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+
+.navbar-menu{
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.navbar-end{
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.menu-btn{
+	color:white !important;
+	font-weight:700;
+	font-size:15px;
+	padding:10px 18px;
+	border-radius:30px;
+	transition:0.3s;
+}
+
+.menu-btn:hover{
+	background:white;
+	color:#8B0000 !important;
+	transform:translateY(-3px);
+}
+
+.active-ajac{
+	background:white;
+	color:#8B0000 !important;
+}
+
+.navbar-burger{
+	color:white;
+}
+
+/* HERO */
+
+.hero-ajac{
+	background:
+	linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+	url('../IMAGENES/HISTORIA/historia1.jpg');
+
+	background-size:cover;
+	background-position:center;
+	height:550px;
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	padding:20px;
+}
+
+.hero-content h1{
+	color:white;
+	font-size:70px;
+	font-weight:900;
+	letter-spacing:4px;
+	text-shadow:0 0 20px rgba(255,255,255,0.5);
+}
+
+.hero-content p{
+	color:white;
+	font-size:22px;
+	margin-top:15px;
+	font-weight:300;
+}
+
+/* TITULOS */
+
+.section-title{
+	text-align:center;
+	font-size:42px;
+	font-weight:900;
+	color:#8B0000;
+	margin-top:60px;
+	margin-bottom:40px;
+	letter-spacing:3px;
+}
+
+/* TARJETAS */
+
+.card-custom{
+	background:white;
+	border-radius:25px;
+	overflow:hidden;
+	box-shadow:0 10px 30px rgba(0,0,0,0.15);
+	transition:0.4s;
+	height:100%;
+}
+
+.card-custom:hover{
+	transform:translateY(-10px) scale(1.03);
+	box-shadow:0 15px 40px rgba(0,0,0,0.25);
+}
+
+.card-custom img{
+	width:100%;
+	height:270px;
+	object-fit:cover;
+	transition:0.5s;
+}
+
+.card-custom:hover img{
+	transform:scale(1.08);
+}
+
+.card-content{
+	padding:25px;
+	text-align:center;
+}
+
+.card-content h2{
+	font-size:28px;
+	font-weight:800;
+	color:#8B0000;
+	margin-bottom:10px;
+}
+
+.card-content p{
+	font-size:15px;
+	color:#555;
+	line-height:1.7;
+}
+
+/* SECCION EXTRA */
+
+.historia-extra{
+	background:white;
+	margin:60px;
+	padding:50px;
+	border-radius:30px;
+	box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.historia-extra h1{
+	font-size:45px;
+	color:#8B0000;
+	font-weight:900;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.historia-extra p{
+	font-size:18px;
+	line-height:2;
+	color:#444;
+	text-align:justify;
+}
+
+/* BOTON */
+
+.btn{
+	display:inline-block;
+	margin-top:25px;
+	padding:14px 28px;
+	background:linear-gradient(45deg,#8B0000,#ff3131);
+	color:white;
+	border-radius:40px;
+	font-weight:700;
+	text-decoration:none;
+	transition:0.3s;
+}
+
+.btn:hover{
+	background:black;
+	transform:scale(1.08);
+	color:white;
+}
+
+/* FOOTER */
+
+.footer{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:30px;
+	margin-top:70px;
+	font-size:20px;
+	font-weight:700;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<!--Encabezado-->
+
+<nav class="navbar has-background-danger-dark" role="navigation" aria-label="main navigation">
+
+<div class="navbar-brand">
+
+<a href="../INDEX.html">
+<figure class="image" style="max-width:90px;">
+<img src="../IMAGENES/INICIO/LOGO.png">
+</figure>
+</a>
+
+</div>
+
+<div class="navbar-menu">
+<div class="navbar-start">
+
+<a class="navbar-item has-text-white" href="../INDEX.html">Inicio</a>
+<a class="navbar-item has-text-white" href="Historia.html">Historia</a>
+<a class="navbar-item has-text-white" href="Origen.html">Origen</a>
+<a class="navbar-item has-text-white" href="Jugadores Relevantes.html">Jugadores Relevantes</a>
+<a class="navbar-item has-text-white" href="Tabla de posiciones.html">Tabla de posiciones</a>
+<a class="navbar-item has-text-white" href="Equipos.html">Equipos</a>
+<a class="navbar-item has-text-white" href="Accesorios.html">Accesorios</a>
+<a class="navbar-item has-text-white" href="Reglas.html">Reglas</a>
+
+</div>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero-ajac">
+
+<div class="hero-content">
+
+<h1>HISTORIA DEL BÁSQUETBOL</h1>
+
+<p>
+La pasión, evolución y grandeza del deporte ráfaga 
+</p>
+
+<a href="#historia" class="btn">
+Descubrir Historia
+</a>
+
+</div>
+
+</section>
+
+<!-- TARJETAS -->
+
+<h1 class="section-title">MOMENTOS IMPORTANTES</h1>
+
+<div class="columns is-multiline p-5">
+
+<div class="column is-4">
+
+<div class="card-custom">
+
+<img src="../IMAGENES/HISTORIA/Creador/James creador.jpeg">
+
+<div class="card-content">
+
+<h2>Creación</h2>
+
+<p>
+El básquetbol fue creado en 1891 por James Naismith en Estados Unidos.
+Su objetivo era inventar un deporte divertido que pudiera jugarse bajo techo.
+</p>
+
+</div>
+</div>
+</div>
+
+<div class="column is-4">
+
+<div class="card-custom">
+	
+<img src="../IMAGENES/HISTORIA/Expancion Mundial/Expancion.jpeg">
+
+<div class="card-content">
+
+<h2>Expansión Mundial</h2>
+
+<p>
+Con el paso del tiempo el básquetbol se expandió por todo el mundo
+y comenzó a practicarse en escuelas, universidades y ligas profesionales.
+</p>
+
+</div>
+</div>
+</div>
+
+<div class="column is-4">
+
+<div class="card-custom">
+
+<img src="../IMAGENES/HISTORIA/NBA/NBA.jpeg">
+
+<div class="card-content">
+
+<h2>NBA</h2>
+
+<p>
+La NBA se convirtió en la liga más famosa del mundo,
+donde juegan los mejores basquetbolistas de la historia.
+</p>
+
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- HISTORIA EXTRA -->
+
+<section class="historia-extra" id="historia">
+
+<h1>¿Cómo nació el básquetbol?</h1>
+
+<p>
+El básquetbol nació en diciembre de 1891 gracias al profesor canadiense
+James Naismith. Él trabajaba en una escuela de Springfield, Massachusetts,
+y necesitaba crear una actividad deportiva para que sus alumnos pudieran
+ejercitarse durante el invierno.
+
+Naismith colocó dos canastas de duraznos en extremos opuestos del gimnasio
+y creó reglas sencillas para iniciar el juego. Con el tiempo, el deporte
+fue mejorando hasta convertirse en una de las disciplinas más importantes
+y populares del mundo.
+
+Actualmente millones de personas practican básquetbol en escuelas,
+parques y ligas profesionales. Además de ser un deporte emocionante,
+ayuda a mejorar la disciplina, el trabajo en equipo y la condición física.
+</p>
+
+<div class="has-text-centered">
+
+<a href="../INDEX.html" class="btn">
+Volver al inicio
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+AJAC COURT KINGS © 2027 
+</footer>
+
+</body>
+</html>

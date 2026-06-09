@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>EQUIPOS| AJAC COURT KINGS</title>
+
+<link rel="stylesheet" href="../bulma/css/bulma.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#f4f4f4;
+}
+
+/* TITULO */
+.title{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-weight:900;
+  position:relative;
+}
+
+/* línea decorativa */
+.title::after{
+  content:"";
+  display:block;
+  width:120px;
+  height:4px;
+  background:#8B0000;
+  margin:10px auto 0 auto;
+  border-radius:5px;
+}
+
+/* CARD MEJORADA (solo bordes y sombra) */
+.card{
+  border:2px solid #ddd;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* IMÁGENES */
+.img-interactiva{
+  transition:0.4s;
+}
+
+.img-interactiva:hover{
+  transform:scale(1.05);
+}
+
+/* BOTÓN VER MÁS (solo borde, sin cambiar color base) */
+.button.is-warning{
+  border:2px solid #8B0000;
+  font-weight:700;
+  transition:0.3s;
+}
+
+.button.is-warning:hover{
+  transform:scale(1.05);
+  border-color:#5a0000;
+}
+
+/* BOTÓN ROJO OSCURO */
+.btn-rojo-oscuro{
+  background:#8B0000;
+  color:white;
+  border:none;
+  font-weight:700;
+  transition:0.3s;
+  border-radius:10px;
+}
+
+.btn-rojo-oscuro:hover{
+  background:#5a0000;
+  transform:scale(1.05);
+}
+
+/* GALERÍA */
+#fotos img{
+  border:3px solid #ddd;
+  border-radius:12px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+#fotos img:hover{
+  transform:scale(1.07);
+  border-color:#8B0000;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar has-background-danger-dark">
+
+<div class="navbar-brand">
+<a href="../INDEX.html">
+<figure class="image" style="max-width:90px;">
+<img src="../IMAGENES/INICIO/LOGO.png">
+</figure>
+</a>
+</div>
+
+<div class="navbar-menu">
+<div class="navbar-start">
+
+<a class="navbar-item has-text-white" href="../INDEX.html">Inicio</a>
+<a class="navbar-item has-text-white" href="Historia.html">Historia</a>
+<a class="navbar-item has-text-white" href="Origen.html">Origen</a>
+<a class="navbar-item has-text-white" href="Jugadores Relevantes.html">Jugadores Relevantes</a>
+<a class="navbar-item has-text-white" href="Tabla de posiciones.html">Tabla de posiciones</a>
+<a class="navbar-item has-text-white" href="Equipos.html">Equipos</a>
+<a class="navbar-item has-text-white" href="Accesorios.html">Accesorios</a>
+<a class="navbar-item has-text-white" href="Reglas.html">Reglas</a>
+
+</div>
+</div>
+
+</nav>
+
+<!-- CONTENIDO -->
+<section class="section">
+<div class="container">
+
+<h1 class="title has-text-black">
+EQUIPOS DE BASQUETBOL
+</h1>
+
+<div class="columns is-multiline">
+
+<!-- CARD -->
+<div class="column is-4">
+  <div class="card">
+    <figure class="image is-square">
+      <img class="img-interactiva" src="../IMAGENES/EQUIPOS/Lakers.jpeg">
+    </figure>
+    <div class="card-content has-text-centered">
+      <p class="title">LAKERS</p>
+      <p class="subtitle">LOS ÁNGELES</p>
+      <a class="button is-warning" href="#fotos">VER MÁS FOTOS</a>
+    </div>
+  </div>
+</div>
+
+<div class="column is-4">
+  <div class="card">
+    <figure class="image is-square">
+      <img class="img-interactiva" src="../IMAGENES/EQUIPOS/Warrios.jpeg">
+    </figure>
+    <div class="card-content has-text-centered">
+      <p class="title">WARRIORS</p>
+      <p class="subtitle">GOLDEN STATE</p>
+      <a class="button is-warning" href="#fotos">VER MÁS FOTOS</a>
+    </div>
+  </div>
+</div>
+
+<div class="column is-4">
+  <div class="card">
+    <figure class="image is-square">
+      <img class="img-interactiva" src="../IMAGENES/EQUIPOS/Chicago.jpeg">
+    </figure>
+    <div class="card-content has-text-centered">
+      <p class="title">BULLS</p>
+      <p class="subtitle">CHICAGO</p>
+      <a class="button is-warning" href="#fotos">VER MÁS FOTOS</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- GALERÍA -->
+<section id="fotos" style="margin-top:80px;">
+
+<h2 class="title has-text-black">MÁS FOTOS</h2>
+
+<div class="columns is-multiline">
+
+<div class="column is-4"><img src="../IMAGENES/EQUIPOS/Boston.jpeg"></div>
+<div class="column is-4"><img src="../IMAGENES/EQUIPOS/Blancos.jpeg"></div>
+<div class="column is-4"><img src="../IMAGENES/EQUIPOS/Ciel.jpeg"></div>
+<div class="column is-4"><img src="../IMAGENES/EQUIPOS/Naranjas.jpeg"></div>
+<div class="column is-4"><img src="../IMAGENES/EQUIPOS/Negros.jpeg"></div>
+<div class="column is-4"><img src="../IMAGENES/EQUIPOS/Verdes.jpeg"></div>
+
+</div>
+
+</section>
+
+<!-- VOLVER -->
+<div class="has-text-centered" style="margin-top:40px;">
+<a href="../INDEX.html" class="button btn-rojo-oscuro is-large">
+Volver al inicio
+</a>
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="
+background:black;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+font-weight:700;
+font-size:18px;
+">
+<h4>AJAC COURT KINGS © 2027</h4>
+</footer>
+
+</body>
+</html>
