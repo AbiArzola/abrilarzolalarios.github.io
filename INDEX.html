@@ -1,0 +1,467 @@
+<!--Inicio-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bulma/css/bulma.min.css">
+<link rel="stylesheet" type="text/css" href="bulma/css/bulma.css">
+
+<!--Titulo-->
+<title>Deportes AJAC Court Kings</title>
+
+
+
+<!---Estilo de la paguina-->
+<style>
+
+.titulo-ajac{
+    animation: brinco 1s infinite;
+}
+
+@keyframes brinco{
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+.navbar-item:hover{
+    background-color: crimson !important;
+    color: white !important;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#particles-js{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+
+}
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-brand img {
+    height: 100px;
+    width: auto;
+}
+
+/* IMAGENES INTERACTIVAS */
+.img-interactiva{
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* Imagenes en movimiento */
+.img-interactiva:hover,
+.img-interactiva:active{
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* TODAS LAS LETRAS EN NEGRO */
+h1, h2, h3, p, a{
+    color: black !important;
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+<header>
+
+<!--Encabezado-->
+<nav class="navbar has-background-danger-dark" role="navigation" aria-label="main navigation">
+
+<!-- LOGO -->
+
+<div class="navbar-brand">
+
+<a href="">
+<figure class="image is-256x256">
+<img src="IMAGENES/INICIO/LOGO.png">
+</figure>
+</a>
+
+</div>
+
+<!-- BOTONES -->
+<div class="navbar-menu">
+<div class="navbar-start">
+
+<a class="navbar-item has-text-white" href="INDEX.html">
+Inicio
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Historia.html">
+Historia
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Origen.html">
+Origen
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Jugadores Relevantes.html">
+Jugadores Relevantes
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Tabla de posiciones.html">
+Tabla de posiciones
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Equipos.html">
+Equipos
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Accesorios.html">
+Accesorios
+</a>
+
+<a class="navbar-item has-text-white" href="MENU/Reglas.html">
+Reglas
+</a>
+
+</div>
+</div>
+
+</nav>
+<section class="hero has-background-danger-dark is-fullheight">
+
+<div class="hero-body">
+<div class="container">
+
+<!-- PARTICULAS -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+<!-- DIV DE PARTICULAS -->
+<div id="particles-js"></div>
+
+<script>
+
+tsParticles.load("particles-js", {
+
+background:{
+color:{
+value:"transparent"
+}
+},
+
+fpsLimit:60,
+
+particles:{
+
+number:{
+value:70
+},
+
+color:{
+value:["#ff0000","#ffffff"]
+},
+
+links:{
+enable:true,
+distance:150,
+color:"#ffffff",
+opacity:0.3
+},
+
+move:{
+enable:true,
+speed:2
+},
+
+opacity:{
+value:0.6
+},
+
+size:{
+value:{
+min:2,
+max:5
+}
+}
+
+}
+
+});
+
+</script>
+
+<h1 class="title has-text-white is-1 has-text-centered titulo-ajac">
+AJAC COURT KINGS
+</h1>
+
+<h2 class="subtitle has-text-grey-lighter has-text-centered">
+Bienvenidos al deporte Basquetbol
+</h2>
+
+</div>
+</div>
+
+</section>
+
+
+
+<div id="navbarBasicExample" class="navbar-menu">
+
+<div class="navbar-end">
+
+<a class="navbar-item" href="INDEX.html">
+Inicio
+</a>
+
+<a class="navbar-item" href="MENU/Historia.html">
+Historia
+</a>
+
+<a class="navbar-item" href="MENU/Origen.html">
+Origen
+</a>
+
+<a class="navbar-item" href="MENU/Jugadores Relevantes.html">
+Jugadores Relevantes
+</a>
+
+<a class="navbar-item" href="MENU/Tabla de posiciones.html">
+Tabla de posiciones
+</a>
+
+<a class="navbar-item" href="MENU/Equipos.html">
+Equipos
+</a>
+
+<a class="navbar-item" href="MENU/Accesorios.html">
+Accesorios
+</a>
+
+<a class="navbar-item" href="MENU/Galeria.html">
+Galeria
+</a>
+
+<div class="navbar-item">
+
+<div class="buttons">
+
+<a class="button is-danger is-dark is-rounded" 
+href="MENU/Iniciar seccion.html">
+<strong>Iniciar sesión</strong>
+</a>
+
+
+<a class="button is-rounded" href="MENU/Registrate.html">
+Registrarse
+</a>
+
+</div>
+
+</div>
+</div>
+</div>
+<br>
+<br>
+
+</header>
+
+<div class="container">
+
+<div class="box has-text-centered has-background-warning-light">
+<h2>
+¡Bienvenidos al emocionante mundo del basquetbol, donde el esfuerzo, la pasión y el trabajo en equipo convierten cada juego en una gran aventura!
+</h2>
+</div>
+<br>
+<br>
+
+
+<div class="columns">
+
+<div class="column">
+
+<h3 class="title is-3 has-text-centered is-italic">
+    Ja Morant
+</h3>
+
+<figure class="image is-square">
+<img class="img-interactiva" src="IMAGENES/INICIO/Ja Morant.JPG">
+</figure>
+<br>
+<br>
+
+<div class="box has-text-centered has-background-warning-light">
+  <p class="title is-3">
+     El jugador más grande de la historia en la NBA
+  </p>
+</div>
+
+
+<br>
+<br>
+<p class="has-text-justified">
+Ja Morant no es solo un jugador que llegó lejos, es la prueba de que no importa cuántas veces te subestimen o te ignoren al inicio. Si trabajas en silencio, si no te rindes cuando nadie cree en ti y sigues mejorando cada día, puedes pasar de ser invisible a estar entre los mejores del mundo. El talento abre puertas, pero la disciplina y la mentalidad son las que te llevan hasta la cima.
+</p>
+</div>
+
+
+
+
+<div class="column">
+
+<h3 class="title is-3 has-text-centered is-italic">
+Janis
+</h3>
+
+<figure class="image is-square">
+<img class="img-interactiva" src="IMAGENES/INICIO/Janis.JPG">
+</figure>
+<br>
+<br>
+<div class="box has-text-centered has-background-warning-light">
+  <p class="title is-3">
+   Jugadora destacada de la NBA
+  </p>
+  <p>
+    Es una de las jugadoras más importantes de la liga femenil, destacando por su talento, disciplina y liderazgo dentro de la cancha.
+  </p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<br>
+<br>
+
+<!-- GALERÍA NUEVA -->
+<section class="section has-background-black-ter">
+<div class="container">
+
+<h2 class="title has-text-white has-text-centered">
+ Nuevos estrenos 2026
+</h2>
+
+<div class="columns is-multiline">
+
+<!-- Imagen 1 -->
+<div class="column is-one-third">
+<div class="card">
+<div class="card-image">
+<figure class="image is-4by3">
+<img src="IMAGENES/INICIO/Spaisi.jpg" alt="">
+</figure>
+</div>
+<div class="card-content">
+<p class="title is-5">Spaisi</p>
+</div>
+</div>
+</div>
+
+<!-- Imagen 2 -->
+<div class="column is-one-third">
+<div class="card">
+<div class="card-image">
+<figure class="image is-4by3">
+<img src="IMAGENES/INICIO/Chivo.jpg" alt="">
+</figure>
+</div>
+<div class="card-content">
+<p class="title is-5">Drean Big</p>
+</div>
+</div>
+</div>
+
+<!-- Imagen 3 -->
+<div class="column is-one-third">
+<div class="card">
+<div class="card-image">
+<figure class="image is-4by3">
+<img src="IMAGENES/INICIO/Peli.jpg" alt="">
+</figure>
+</div>
+<div class="card-content">
+<p class="title is-5">Goat Movie estreno 2026</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<!--Video-->
+
+<h3 class="title is-3 has-text-centered">
+EDIT DE STEPHEN CURRY
+</h3>
+
+<div align="center">
+
+<video controls width="70%" style="position: relative; z-index: 2;">
+<source src="VIDEOS/INICIO/CURRY.mp4" type="video/mp4">
+</video>
+
+<p class="has-text-centered">
+Edit de Stephen Curry con sus mejores jugadas, triples y momentos destacados.
+</p>
+
+</div>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+const $navbarBurgers = Array.prototype.slice.call(
+document.querySelectorAll('.navbar-burger'), 0
+);
+
+$navbarBurgers.forEach(el => {
+
+el.addEventListener('click', () => {
+
+const target = el.dataset.target;
+const $target = document.getElementById(target);
+
+el.classList.toggle('is-active');
+$target.classList.toggle('is-active');
+
+});
+
+});
+
+});
+
+</script>
+
+<!--pien de paguina-->
+
+<footer style="
+background:black;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+font-weight:700;
+font-size:18px;
+">
+
+<h4>
+AJAC COURT KINGS © 2027
+</h4>
+
+</footer>
+
+</body>
+</html>
+
+
+
+
+
